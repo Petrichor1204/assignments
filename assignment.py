@@ -1,0 +1,10 @@
+#A program that welcomes me, asks for my name, length of my name, my age, and displays how old i will be in one year.
+print("Hello User")
+print("What is your name?")
+my_name = input()
+print("Nice To Meet You," + " "+ my_name)
+print("The length of your name is:")
+print(len(my_name))
+print("What is your age?\n")
+age = input()
+print("You will be " + str(int(age) + 1) + " in one year")
